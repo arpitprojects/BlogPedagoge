@@ -1,0 +1,125 @@
+*{
+	box-sizing:border-box;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/fonts.ttf);
+}
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+	background-image:url(../img/geometry2.png);
+	background-repeat:repeat;
+	color:#4E5E6A;
+	font-family:myFirstFont , sans-serif !important;
+}
+header{
+	position:fixed;
+	top:0;
+	width:100%;
+	max-width:100%;
+	height:10%;
+	background-color:white;
+	box-shadow:1px 1px 1px #fefaf9;
+	z-index:9999 !important;
+}
+header img {
+	vertical-align : center;
+	padding-left:3%;
+	padding-top:1%;
+	max-width:100%;
+	position: relative;
+    width: 160px;
+    height: 60px;
+    display: table;
+}
+section{
+	z-index:9;
+}
+article{
+	z-index:9;
+}
+footer{
+	z-index:9;
+}
+section h1{
+	font-size:40px;
+	
+}
+.theme-disqus .easyeditor{
+	height:250px;
+}
+
+textarea  #editor{
+	height:250px !important;
+	
+}
+#button{
+	background-color:#1DB198 !important;
+	height:35px !important;
+	color:white;
+	border-radius:0 !important;
+	font-size:15px;
+	text-align:center;
+	padding:2% !important;
+	
+}
+footer{
+	background-color:#1DB198 !important;'
+	color:white !important;
+	text-align:center;
+	
+	
+}
+h4{
+	color:white !important;
+}
+a{
+	color:white !important;
+}
+footer .col-md-12{
+	padding-bottom:1%;
+	border-bottom:1px solid white;
+}

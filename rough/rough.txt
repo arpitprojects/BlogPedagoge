@@ -1,0 +1,12 @@
+<ul class="side-nav secondary">
+          <li><a href="#">about us</a></li>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">press</a></li>
+          <li><a href="#">blog</a></li>
+        </ul>
+        <ul class="inline-list social">
+          <li><i class="fi-social-facebook"></i></li>
+          <li><i class="fi-social-pinterest"></i></li>
+          <li><i class="fi-social-youtube"></i></li>
+          <li><i class="fi-social-twitter"></i></li>
+        </ul>
